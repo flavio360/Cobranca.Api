@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cobranca.Api", "Cobranca.Api\Cobranca.Api.csproj", "{93FD3311-2F38-4615-BFCA-AD702FE2B7FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93FD3311-2F38-4615-BFCA-AD702FE2B7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FD3311-2F38-4615-BFCA-AD702FE2B7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FD3311-2F38-4615-BFCA-AD702FE2B7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FD3311-2F38-4615-BFCA-AD702FE2B7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1ACE9A12-63DA-45EE-9375-EC444E03F1C0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,234 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Imapcto Cobrança Api",
+    "description": "Imapcto Cobrança - Nova Ordem <br>Ambiente: Production <br>Maquina: DESKTOP-UK3VFUT",
+    "termsOfService": "https://www.impactoCobranca.com.br",
+    "contact": {
+      "name": "Tecnologia",
+      "email": "tecnologia@impactocobranca.com.br"
+    },
+    "license": {
+      "name": "Politica - Impacto",
+      "url": "https://www.impactoCobranca.com.br"
+    },
+    "version": "Versão Imapcto Cobrança -1.0"
+  },
+  "paths": {
+    "/api/Impacto/Cobranca/Teste": {
+      "post": {
+        "tags": [
+          "Cobranca"
+        ],
+        "parameters": [
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string",
+              "default": "1.0"
+            }
+          },
+          {
+            "name": "Impacto-Api-Token",
+            "in": "header"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Impacto/Cobranca/Nova": {
+      "post": {
+        "tags": [
+          "Cobranca"
+        ],
+        "parameters": [
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "description": "The requested API version",
+            "schema": {
+              "type": "string",
+              "default": "1.0"
+            }
+          },
+          {
+            "name": "Impacto-Api-Token",
+            "in": "header"
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json; x-api-version=1.0": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/OrigemModel"
+                }
+              }
+            },
+            "text/json; x-api-version=1.0": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/OrigemModel"
+                }
+              }
+            },
+            "application/*+json; x-api-version=1.0": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/OrigemModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Anexo": {
+        "type": "object",
+        "properties": {
+          "Nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "TipoDocumento": {
+            "type": "string",
+            "nullable": true
+          },
+          "HashArquivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Url": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrigemModel": {
+        "type": "object",
+        "properties": {
+          "EmpresaId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "TipoOrigem": {
+            "type": "string",
+            "nullable": true
+          },
+          "IdExterno": {
+            "type": "string",
+            "nullable": true
+          },
+          "RamoId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Titulo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "DataEvento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Metadata": {
+            "nullable": true
+          },
+          "Tipo": {
+            "type": "string",
+            "nullable": true
+          },
+          "NomeRazao": {
+            "type": "string",
+            "nullable": true
+          },
+          "CpfCnpj": {
+            "type": "string",
+            "nullable": true
+          },
+          "DataNascimento": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "RG_IE": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tel1": {
+            "type": "string",
+            "nullable": true
+          },
+          "Tel2": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndLogradouro": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndNumero": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndComplemento": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndBairro": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndCidade": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndUF": {
+            "type": "string",
+            "nullable": true
+          },
+          "EndCEP": {
+            "type": "string",
+            "nullable": true
+          },
+          "Anexo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Anexo"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "Cobranca.Api.Controllers.CobrancaController",
+    "Method": "NovaCobranca",
+    "RelativePath": "api/Impacto/Cobranca/Nova",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origem",
+        "Type": "System.Collections.Generic.List\u00601[[Cobranca.Api.Models.OrigemModel, Cobranca.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Cobranca.Api.Controllers.CobrancaController",
+    "Method": "teste",
+    "RelativePath": "api/Impacto/Cobranca/Teste",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
