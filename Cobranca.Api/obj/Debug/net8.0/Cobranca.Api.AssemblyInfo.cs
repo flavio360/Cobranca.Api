@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cobranca.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e15d20b2b0442ff1b0da02cc12b2ab247bd2c4c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cobranca.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cobranca.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

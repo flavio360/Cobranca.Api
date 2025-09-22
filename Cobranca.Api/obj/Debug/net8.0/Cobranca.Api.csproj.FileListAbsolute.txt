@@ -74,6 +74,7 @@ C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvol
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\Cobranca.Api.csproj.CoreCompileInputs.cache
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\Cobranca.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\Cobranca.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\Cobranca.Api.sourcelink.json
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\flavio.lopes\Desktop\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\Desenvolvimento\Projetos\Cobranca.Api\Cobranca.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
