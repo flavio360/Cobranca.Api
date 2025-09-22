@@ -1,0 +1,67 @@
+## .gitignore para solução Visual Studio com Windows Service e bibliotecas de classe
+## Baseado em: https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
+
+# Diretórios de build (compilação) e arquivos gerados automaticamente
+[Bb]in/
+[Oo]bj/
+
+# Arquivos gerados pelo Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos temporários
+*.tmp
+*.log
+*.cache
+*.err
+
+# Arquivos do NuGet
+*.nupkg
+# Pastas que contêm pacotes NuGet (se não for gerenciado via pacote centralizado)
+packages/
+# Arquivos gerados durante a restauração dos pacotes
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Diretórios de publicação
+publish/
+
+# Arquivos de configuração de depuração
+*.pdb
+
+# Arquivos de banco de dados gerados localmente (se houver)
+*.mdf
+*.ldf
+
+# Arquivos de configuração local (separados do controle de versão)
+local.settings.json
+
+# Pastas de testes, logs, e outros arquivos que podem ser gerados automaticamente
+TestResults/
+*.vsmdi
+
+# Configurações específicas do Windows Service
+# Se houver arquivos ou pastas específicos gerados pelo Windows Service, adicione-os aqui.
+# Por exemplo, se o serviço gerar logs em uma pasta "Logs" dentro do projeto:
+Service/Logs/
+
+# Ignorar arquivos de backup e de editor
+*~
+*.bak
+*.swp
+*.swo
+
+# Arquivos de caches e configurações do Rider (se usar JetBrains Rider)
+.idea/
+*.sln.iml
+
+# Arquivos de configuração do VSCode (se houver)
+.vscode/
+
+# Outros arquivos que podem ser gerados na raiz ou em subpastas
+Thumbs.db
+Desktop.ini
