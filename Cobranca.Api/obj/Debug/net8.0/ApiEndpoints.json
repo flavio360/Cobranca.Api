@@ -35,5 +35,26 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Cobranca.Api.Controllers.Seguranca.LoginController",
+    "Method": "Autenticar",
+    "RelativePath": "api/Impacto/Login/autenticar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Cobranca.Api.Models.Seguranca.LoginModelRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

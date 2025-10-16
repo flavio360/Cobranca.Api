@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6Qb74R4QtC8=",
+  "dgSpecHash": "peMMYbzpJgk=",
   "success": true,
   "projectFilePath": "C:\\Users\\flavio.lopes\\Desktop\\PROJETO IMPACTO - SERVIÇOS DE  COBRANÇA\\Desenvolvimento\\Projetos\\Cobranca.Api\\Cobranca.Api\\Cobranca.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\flavio.lopes\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\flavio.lopes\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\flavio.lopes\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
     "C:\\Users\\flavio.lopes\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.1.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.1.0.nupkg.sha512",
     "C:\\Users\\flavio.lopes\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

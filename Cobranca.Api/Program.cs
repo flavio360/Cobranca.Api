@@ -5,6 +5,7 @@ using Cobranca.Api.Data.Interface;
 using Cobranca.Api.Data.Repository;
 using Cobranca.Api.Service;
 using Cobranca.Api.Service.Interface;
+using Cobranca.Api.Service.Seguranca;
 using Microsoft.AspNetCore.Mvc;
 using System.Data.SqlClient;
 
@@ -61,17 +62,21 @@ builder.Services.ConfigureOptions<ImpConfigureSwaggerOptions>();
 
 
 builder.Services.AddScoped<ICobrancaService, CobrancaService>();
+builder.Services.AddScoped<ILoginService, LoginService>();
 
 builder.Services.AddScoped<ICobrancaRepository, CobrancaRepository>();
+builder.Services.AddScoped<ILoginRepository, LoginRepository>();
 #endregion
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+
     app.UseHsts();
 }
 
